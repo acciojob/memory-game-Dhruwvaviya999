@@ -1,10 +1,10 @@
 
 import React, { useState } from "react";
 import './../styles/App.css';
-import WelcomePage from "../pages/WelcomePage.js";
-import EasyModePage from "../pages/EasyModePage.js";
-import HardModePage from "../pages/HardModePage.js";
-import NormalModePage from "../pages/NormalModePage.js";
+import WelcomePage from "./WelcomePage";
+import EasyModePage from "./EasyModePage";
+import HardModePage from "./HardModePage";
+import NormalModePage from "./NormalModePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
